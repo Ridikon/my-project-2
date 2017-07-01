@@ -70,12 +70,14 @@
         margin-left: 0;
     }
     .main__form-list .main__form-item input,
-    .main__form-list .main__form-item textarea {
+    .main__form-list .main__form-item textarea,
+    .main__form-list .main__form-item-registration select {
         margin-top: 10px;
         width: 100%;
         font-size: 20px;
     }
-    .main__form-list .main__form-item input {
+    .main__form-list .main__form-item input,
+    .main__form-list .main__form-item-registration select {
         height: 40px;
     }
     .main__form-list .main__form-item textarea {
@@ -116,6 +118,27 @@
     .footer__social-item {
         display: inline-block;
     }
+
+    .header__authorized-hidden {
+        width: 90%;
+    }
+
+    .header__authorized-form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header__authorized-form input {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        padding: 0 5px;
+    }
+ 
+    .header-top-wrapper .header__authorized-hidden .header__authorized-form input:first-child {
+        margin-bottom: 10px;
+    }
+
 }
 
 
@@ -132,7 +155,12 @@
 
 /* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 380px) {
+    .pagination__item .pagination__item-link {
+        padding: 7px;
+        font-size: 7px;
+    }
+}
 
 
 /*==========  Mobile First Method  ==========*/

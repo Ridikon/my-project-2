@@ -31,24 +31,39 @@
                 </form>
                 <nav class="header__authorized">
                     <ul class="header__authorized-list">
-                        <li class="header__authorized-item"><a href="#" class="header__authorized-text">Увійти</a></li>
+                        <li class="header__authorized-item"><a href="#" class="header__authorized-text authorized__button">Авторизація</a></li>
                         <li class="header__authorized-item">
                             <p class="header__authorized-p">або</p>
                         </li>
-                        <li class="header__authorized-item"><a href="#" class="header__authorized-text">Реєстрація</a></li>
+                        <li class="header__authorized-item"><a href="registration.html" class="header__authorized-text">Реєстрація</a></li>
                     </ul>
                 </nav>
+                <div class="header__authorized-hidden">
+                    <form action="https://formspree.io/ridikon666@gmail.com" class="header__authorized-form" method="POST">
+                        <label for="login">Логін</label>
+                        <input type="text" id="login" name="login" placeholder="Ваш логін" required>
+                        <label for="pass">Пароль</label>
+                        <input type="password" id="pass" name="password" placeholder="Ваш пароль" required>
+                        <input type="submit" id="pass" value=" Увійти">
+                        <div class="header__authorized-close-icon"></div>
+                    </form>
+                </div>
             </div>
             <div class="header__mobile" id="header__mobile">
                 
             </div>
             <nav class="header__mobile-nav">
-                    <ul class="header__mobile-list">
-                        <li class="header__mobile-item"><a href="index.html">Головна</a></li>
-                        <li class="header__mobile-item"><a href="galery.html">Галерея</a></li>
-                        <li class="header__mobile-item"><a href="about-us.html">Про нас</a></li>
-                    </ul>
-                </nav>
+                <ul class="header__mobile-list">
+                    <li class="header__mobile-item"><a href="index.html">Головна</a></li>
+                    <li class="header__mobile-item"><a href="galery.html">Галерея</a></li>
+                    <li class="header__mobile-item"><a href="about-us.html">Про нас</a></li>
+                    <li class="header__mobile-item header__authorized-text authorized__button"><a href="#">Авторизація</a></li>
+                    <li class="header__mobile-item"><a href="registration.html">Реєстрація</a></li>
+                </ul>
+                <form action="" class="header__mobile-form" method="POST">
+                    <input type="text" class=" header__mobile-search" placeholder="Пошук">
+                </form>
+            </nav>
         </div>
     </header>
     <!--HEADER END-->
@@ -170,6 +185,7 @@
     crossorigin="anonymous"></script>
     <script src="js/slider.js"></script>
     <script src="js/mobile-menu.js"></script>
+    <script src="js/autorized.js"></script>
 </body>
 
 </html>

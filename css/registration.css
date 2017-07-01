@@ -1,0 +1,17 @@
+.main__registration {
+	width: 100%;
+}
+
+.main__form-item .main__form-submit-registration {
+	width: 150px;
+}
+
+.required {
+	position: relative;
+}
+
+.required::after {
+	content: "*";
+	margin-left: 5px;
+	color: red;
+}

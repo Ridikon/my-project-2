@@ -231,6 +231,20 @@
 .social__content-item {
     margin: 0 3%;
     width: 90px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+
+}
+
+.social__content-item:hover {
+   -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
 }
 
 .social__content-link {
@@ -263,13 +277,15 @@
 }
 
 .main__form-item input,
-.main__form-item textarea {
+.main__form-item textarea,
+.main__form-item select {
     padding: 0 5px;
     width: 40%;
     margin-right: 10%;
 }
 
-.main__form-item input {
+.main__form-item input,
+.main__form-item select {
     height: 30px;
 }
 

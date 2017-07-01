@@ -1,7 +1,7 @@
 var slideIndex = 0;
 
-var prevButton = document.getElementsByClassName("prev");
-var nextButton = document.getElementsByClassName("next");
+var prevButton = document.getElementsByClassName("prev")[0];
+var nextButton = document.getElementsByClassName("next")[0];
 var dotElement = document.getElementsByClassName("dot");
 
 prevButton.addEventListener( "click" , plusSlides(-1));

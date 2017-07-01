@@ -1,0 +1,70 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-family: 'Comfortaa', cursive;
+    background-color: #f7b47e;
+}
+
+a {
+    font-size: 10px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    border: 2px solid #32BEA6;
+}
+
+.clear {
+    clear: both;
+}
+
+.main,
+.social,
+.main-form,
+.sidebar {
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.header-wrapper,
+.header-top-wrapper,
+.main,
+.pagination,
+.social,
+.main__form,
+.footer-wrapper {
+    margin: 20px auto;
+}

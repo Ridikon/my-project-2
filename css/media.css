@@ -1,0 +1,163 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 920px) {
+    .wrapper .sidebar {
+        display: none;
+    }
+    .wrapper .main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .header-top #header__mobile {
+        display: block;
+    }
+    .header__nav,
+    .header__form,
+    .header__authorized {
+        display: none;
+    }
+    .header__logo {
+        margin-left: 10%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .main__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .main__content .main__img {
+        width: 50%;
+        padding-bottom: 10px;
+    }
+    .main__content .main__text {
+        width: 100%;
+    }
+    .social__content-link span {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .main__content .main__img {
+        width: 60%;
+    }
+    .main__form-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .main__form-list .main__form-item label {
+        margin-left: 0;
+    }
+    .main__form-list .main__form-item input,
+    .main__form-list .main__form-item textarea {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .main__form-list .main__form-item input {
+        height: 40px;
+    }
+    .main__form-list .main__form-item textarea {
+        height: 80px;
+    }
+    .main__form-list .main__form-item .main__form-submit {
+        width: 100%;
+        font-size: 25px;
+        margin-right: 0;
+        line-height: 0;
+    }
+    
+    .main__galery-content {
+        flex-direction: column;
+    }
+    .main__galery-content .main__galery-item {
+        width: 80%;
+        align-self: center;
+    }
+    
+    .footer-wrapper .footer__content,
+    .footer-wrapper .footer__nav-list,
+    .footer-wrapper .footer__social-list {
+        display: block;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .footer__content {
+        display: block;
+        text-align: center;
+    }
+    .footer__nav,
+    .footer__social-list {
+        margin-top: 15px;
+    }
+    .footer__nav-item,
+    .footer__social-item {
+        display: inline-block;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .main__content .main__img {
+        width: 80%;
+    }
+    .pagination__item .pagination__item-link {
+        padding: 10px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}

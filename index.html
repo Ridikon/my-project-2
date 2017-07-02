@@ -21,12 +21,12 @@
                 </div>
                 <nav class="header__nav">
                     <ul class="header__nav-list">
-                        <li class="header__nav-item"><a href="index.html">Головна</a></li>
+                        <li class="header__nav-item"><a href="index.html" class="header__nav-item-active">Головна</a></li>
                         <li class="header__nav-item"><a href="galery.html">Галерея</a></li>
                         <li class="header__nav-item"><a href="about-us.html">Про нас</a></li>
                     </ul>
                 </nav>
-                <form action="" class="header__form" method="POST">
+                <form class="header__form">
                     <input type="text" class="header__search" placeholder="Пошук">
                 </form>
                 <nav class="header__authorized">
@@ -54,7 +54,7 @@
             </div>
             <nav class="header__mobile-nav">
                 <ul class="header__mobile-list">
-                    <li class="header__mobile-item"><a href="index.html">Головна</a></li>
+                    <li class="header__mobile-item"><a href="index.html" class="header__nav-item-active">Головна</a></li>
                     <li class="header__mobile-item"><a href="galery.html">Галерея</a></li>
                     <li class="header__mobile-item"><a href="about-us.html">Про нас</a></li>
                     <li class="header__mobile-item header__authorized-text authorized__button"><a href="#">Авторизація</a></li>
@@ -247,7 +247,7 @@
     </section>
     <section class="main__form">
         <h2 class="main__form-h2">Залиште нам Ваші побажання у формі нище</h2>
-        <form class="main__form-list" action="https://formspree.io/ridikon666@gmail.com" method="POST">
+        <form class="main__form-list">
             <div class="main__form-item">
                 <label for="client-email">Ваш email</label>
                 <input id="client-email" type="email" name="client-email" placeholder="example@mail.com" required>
@@ -261,7 +261,7 @@
                 <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
             </div>
             <div class="main__form-item main__form-item-col">
-                <input type="submit" name="client-submit" value="Відправити" class="main__form-submit">
+                <input type="submit" name="client-submit" value="Відправити" class="main__form-submit" id="main__form-submit">
             </div>
         </form>
     </section>
@@ -300,6 +300,8 @@
     <script src="js/slider.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="js/autorized.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/send-form.js"></script>
 </body>
 
 </html>

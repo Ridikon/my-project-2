@@ -26,7 +26,7 @@
                         <li class="header__nav-item"><a href="about-us.html">Про нас</a></li>
                     </ul>
                 </nav>
-                <form action="" class="header__form" method="POST">
+                <form class="header__form">
                     <input type="text" class="header__search" placeholder="Пошук">
                 </form>
                 <nav class="header__authorized">
@@ -58,7 +58,7 @@
                     <li class="header__mobile-item"><a href="galery.html">Галерея</a></li>
                     <li class="header__mobile-item"><a href="about-us.html">Про нас</a></li>
                     <li class="header__mobile-item header__authorized-text authorized__button"><a href="#">Авторизація</a></li>
-                    <li class="header__mobile-item"><a href="registration.html">Реєстрація</a></li>
+                    <li class="header__mobile-item"><a href="registration.html" class="header__nav-item-active">Реєстрація</a></li>
                 </ul>
                 <form action="" class="header__mobile-form" method="POST">
                     <input type="text" class=" header__mobile-search" placeholder="Пошук">
@@ -76,7 +76,7 @@
             </div>
             <section class="main__form main__registration">
                 <h2 class="main__form-h2">Персональні дані</h2>
-                <form class="main__form-list main__form-list-registration" action="https://formspree.io/ridikon666@gmail.com" method="POST">
+                <form class="main__form-list main__form-list-registration">
                     <div class="main__form-item main__form-item-registration">
                         <label for="client-name" class="required">Ім'я користувача</label>
                         <input id="client-name" type="text" name="client-name" placeholder="Ваше ім'я" required>
@@ -106,7 +106,7 @@
                         <input id="client-city" type="text" name="client-city" placeholder="Місто або країна">
                     </div>
                     <div class="main__form-item main__form-item-col">
-                        <input type="submit" name="client-submit" value="Створити аккаунт" class="main__form-submit main__form-submit-registration">
+                        <input type="submit" name="client-submit" value="Створити аккаунт" class="main__form-submit main__form-submit-registration" id="main__form-submit">
                     </div>
                 </form>
             </section>
@@ -177,7 +177,7 @@
                 <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
             </div>
             <div class="main__form-item main__form-item-col">
-                <input type="submit" name="client-submit" value="Відправити" class="main__form-submit">
+                <input type="submit" name="client-submit" value="Відправити" class="main__form-submit" id="main__form-submit">
             </div>
         </form>
     </section>
@@ -216,6 +216,8 @@
     <script src="js/slider.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="js/autorized.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/send-form.js"></script>
 </body>
 
 </html>

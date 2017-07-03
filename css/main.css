@@ -120,6 +120,8 @@
 
 .main__text-about-us {
     margin: auto;
+    width: 100%;
+    padding-bottom: 0;
 }
 
 .main__galery-content {
@@ -134,7 +136,24 @@
 }
 
 .main__galery-item {
+    position: relative;
     width: 49%;
+}
+
+.main__galery-item:hover .main__galery-text {
+    bottom: 10px;
+    transition: all 0.3s;
+    display: block;
+}
+
+.main__galery-item:hover .main__galery-eye {
+    top: 10px;
+    transition: all 0.3s;
+}
+
+.main__galery-item:hover .main__galery-opaciti {
+    display: block;
+    transition: all 0.4s;
 }
 
 .main__galery-item a {
@@ -143,6 +162,34 @@
 
 .main__galery-item img {
     width: 100%;
+}
+
+.main__galery-text {
+    font-weight: 700;
+    color: #fff;
+    margin: 0 5px;
+    position: absolute;
+    display: none;
+}
+
+.main__galery-opaciti {
+    background: rgba(50, 190, 166,.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.main__galery-eye {
+    font-weight: 700;
+    padding-left: 26px;
+    margin: 0 5px;
+    color: #fff;
+    position: absolute;
+    top: -900px;
+    background: url(../img/eye.png) no-repeat 3px 0;
 }
 
 

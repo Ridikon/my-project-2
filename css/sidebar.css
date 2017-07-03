@@ -71,6 +71,11 @@
 .sidebar__social-link {
     display: block;
     width: 100%;
+    transition: all .3s;
+}
+
+.sidebar__social-link:hover {
+    transform: scale(1.2);
 }
 
 

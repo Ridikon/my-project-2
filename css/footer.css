@@ -45,5 +45,13 @@
     margin-left: 0;
 }
 
+.footer__social-link {
+    transition: all .3s;
+}
+
+.footer__social-link:hover {
+    transform: scale(1.2);
+}
+
 
 /*--------FOOTER END------------*/

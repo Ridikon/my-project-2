@@ -22,7 +22,7 @@ function sendForm(e) {
 	.done(function () {
         $('.main__form-h2').html('Thank You');
         $(document).ready(function(){
-        	$('.main__form-list:reset'));
+        	$('.main__form-list:reset');
         });
     });
 }

@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     padding: 0 10px;
     font-family: 'Comfortaa', cursive;
+    /*background-color: #f7b47e;*/
     background: url(../img/background.png);
     background-attachment: fixed;
 }

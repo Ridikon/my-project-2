@@ -19,7 +19,7 @@ function sendForm(e) {
 		},
 		dataType: "json"
 	})
-	.done(function() {
-		alert('Дякуємо!!!');
-	});
+	.done(function () {
+        $('.main__form-h2').html('Thank You');
+    });
 }

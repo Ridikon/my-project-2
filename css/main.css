@@ -113,9 +113,9 @@
 }
 
 .main__content-button:active {
-    -webkit-box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
-    -moz-box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
-    box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
 }
 
 .main__text-about-us {
@@ -154,8 +154,8 @@
 
 .main__galery-item:hover .main__galery-opaciti {
     display: block;
-    transition: all 0.4s;
     height: 98.5%;
+    transition: all 0.4s;
 }
 
 .main__galery-item a {
@@ -175,7 +175,7 @@
 }
 
 .main__galery-opaciti {
-    background: rgba(50, 190, 166, .8);
+    background: rgba(50, 190, 166,.8);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -247,9 +247,9 @@
 }
 
 .pagination__item-link:active {
-    -webkit-box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
-    -moz-box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
-    box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
 }
 
 .pagination__arrow-left,
@@ -285,14 +285,15 @@
     -o-transition: all 400ms linear;
     -ms-transition: all 400ms linear;
     transition: all 400ms linear;
+
 }
 
 .social__content-item:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
 }
 
 .social__content-link {
@@ -338,6 +339,7 @@
 }
 
 .main__form-item textarea {
+    padding: 5px 5px;
     height: 60px;
     resize: none;
 }
@@ -376,10 +378,11 @@
 }
 
 .main__form-submit:active {
-    -webkit-box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
-    -moz-box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
-    box-shadow: inset 0px 0px 16px -1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,1);
 }
+
 
 
 /*--------MAIN-FORM END------------*/

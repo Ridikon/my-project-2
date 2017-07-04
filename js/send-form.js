@@ -21,6 +21,6 @@ function sendForm(e) {
 	})
 	.done(function () {
         $('.main__form-h2').html('Thank You');
-        $('form').get(0).reset();
+        document.getElementById("form").reset();
     });
 }
